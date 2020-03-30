@@ -1,0 +1,34 @@
+.product-block .block .item-bar {
+    /*margin: 10px 0 0 0;*/
+    /*border-right: none 0;*/
+    /*border-bottom: none 0;*/
+    /*border-left: none 0;*/
+}
+.carousel-container.products-carousel .carousel {
+    /*height: auto;*/
+    min-height: 400px;
+}
+.carousel-container.products-carousel .arrow {
+    text-shadow: none;
+    color: #fff;
+    height: 22px;
+    width: 22px;
+    font-size: 16px;
+    line-height: 22px;
+    top: 0;
+    margin: 0;
+    opacity: 1;
+    background-color: #ddd;
+    vertical-align: middle;
+    text-align: center;
+}
+.carousel-container.products-carousel .arrow:hover {
+    background-color: #0289C8;
+}
+.carousel-container.products-carousel .arrow.right {
+    right: 10px;
+}
+.carousel-container.products-carousel .arrow.left {
+    right: 40px;
+    left: auto;
+}

@@ -1,0 +1,94 @@
+.block.news-carousel-block {
+    width: 100%;
+}
+.carousel-container.news-carousel .carousel {
+    min-height: 400px;
+}
+.carousel-container.news-carousel .carousel > * {
+    height: 400px;
+}
+.carousel-container.news-carousel .arrow {
+    text-shadow: none;
+    color: #fff;
+    height: 22px;
+    width: 22px;
+    font-size: 16px;
+    line-height: 18px;
+    top: 12px;
+    margin: 0;
+    opacity: 1;
+    background-color: #ddd;
+    vertical-align: middle;
+    text-align: center;
+}
+.carousel-container.news-carousel .arrow:hover {
+    background-color: #0289C8;
+}
+.carousel-container.news-carousel .arrow.right {
+    right: 10px;
+}
+.carousel-container.news-carousel .arrow.left {
+    right: 40px;
+    left: auto;
+}
+
+.news-carousel .article-small {
+    height: 380px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 5px;
+    min-height: 100px;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+.news-carousel .article-small .image {
+    display: block;
+    height: 160px;
+    margin: -20px -20px 10px -20px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    position: relative;
+}
+.news-carousel .article-small .image img {
+    position: absolute;
+    max-height: 150%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+    max-width: 200%;
+}
+.news-carousel .article-small:hover .image img {
+    max-height: 160%;
+}
+.news-carousel .article-small h3 {
+    font-weight: 400;
+    color: #222;
+}
+.news-carousel .article-small .description {
+    text-align: justify;
+}
+.news-carousel .article-small .article-small-bottom {
+    position: absolute;
+    width: 100%;
+    display: block;
+    bottom: 0;
+    padding: 10px 20px;
+    border-top: solid 1px #ededed;
+    background-color: #fff;
+    margin: 0 -20px 0 -20px;
+    color: #999;
+    font-size: 0.85em;
+}

@@ -1,0 +1,11 @@
+.admin-overview .editable textarea,
+.editable textarea,
+.editable input[type="text"],
+.admin-overview .editable select,
+.admin-overview [data-edit] textarea,
+.admin-overview [data-edit] select
+{
+    height: 34px !important;
+    width: 100%;
+    margin-top: 0;
+}

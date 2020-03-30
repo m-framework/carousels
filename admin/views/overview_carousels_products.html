@@ -1,0 +1,44 @@
+<div class="additional-links">
+
+</div>
+<table cellpadding="0" cellspacing="0" class="admin-overview">
+    <thead>
+    <tr>
+        <th width="15%"></th>
+        <th width="25%" class="text-left">*Page*</th>
+        <th width="30%" class="text-left">*Title*</th>
+        <th width="20%" class="text-left">*View code*</th>
+        <th width="10%" class="text-left"></th>
+    </tr>
+    </thead>
+    <tbody data-m-action="drag_sort" data-m-model="modules\carousels\models\carousels_products">
+    ~items~
+    </tbody>
+    <tfoot>
+    <tr class="editable" data-id="null">
+        <td width="15%">
+            <a href="#"
+               data-model="modules\carousels\models\carousels_products"
+               data-m-action="dynamic_edit"
+               data-m-context="tr[data-id='null']"
+               class="edit save plus"><i class="fa fa-edit"></i></a>
+            <a href="#"
+               data-model="modules\carousels\models\carousels_products"
+               data-m-action="dynamic_edit"
+               data-m-context="tr[data-id='null']"
+               class="delete"
+               title="*Delete*"><i class="fa fa-trash"></i></a>
+            <a href="~language_prefix~/admin/carousels/products/carousel/id/null"
+               class="btn-white" title="*Carousel slides*"><i class="fa fa-list-alt"></i></a>
+        </td>
+        <td class="text-left" width="25%"><span data-edit="page"><select>~pages_options~</select></span></td>
+        <td class="text-left" width="30%"><span data-edit="title"><textarea placeholder="*Slider title*"></textarea></span></td>
+        <td class="text-left" width="20%"><span data-edit="view_code"><textarea placeholder="*View code*"></textarea></span></td>
+        <td class="text-left" width="10%">
+            <input type="hidden" value="products_carousel" data-edit="module">
+            <input type="checkbox" value="1" id="id" data-edit="active" checked>
+            <label class="checkbox small" for="id">*Active*</label>
+        </td>
+    </tr>
+    </tfoot>
+</table>

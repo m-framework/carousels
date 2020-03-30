@@ -1,0 +1,21 @@
+{
+  "title":"Carousels",
+  "name":"carousels",
+  "description":"Module for create beauty and lightweight content carousel slider. Present 3 types of sliders: `header_carousel` (1 per 100% of width), `clients_carousel` and `items_carousel`.",
+  "icon":"<i class=\"fa fa-image\"></i>",
+  "version":"1.0",
+  "date":"2017-07-04",
+  "author":"mrinmiro@gmail.com",
+  "compatible_cores":["1.0"],
+  "dashboard_menu":{
+    "/header":"<i class=\"fa fa-image\"></i> *Header carousel*",
+    "/clients":"<i class=\"fa fa-image\"></i> *Clients carousel*",
+    "/items":"<i class=\"fa fa-image\"></i> *Items carousel*",
+    "/products":"<i class=\"fa fa-image\"></i> *Products carousel*",
+    "../../../admin/modules/options/carousels":"<i class=\"fa fa-cog\"></i> *Module options*"
+  },
+  "tags":["slider","carousel","infinity slider","items slider","carousel slider"],
+  "price":"0",
+  "requires":[],
+  "":""
+}

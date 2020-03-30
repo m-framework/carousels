@@ -1,0 +1,31 @@
+<tr data-id="~id~">
+    <td width="15%">
+        <i class="move"></i>
+        <a href="#"
+           data-model="modules\carousels\models\carousels_products"
+           data-m-action="dynamic_edit"
+           data-m-context='tr[data-id="~id~"]'
+           title="*Edit*"
+           class="edit"><i class="fa fa-edit"></i></a>
+        <a href="#"
+           data-model="modules\carousels\models\carousels_products"
+           data-m-action="dynamic_edit"
+           data-m-context='tr[data-id="~id~"]'
+           class="delete"
+           title="*Delete*"><i class="fa fa-trash"></i></a>
+        <a href="~language_prefix~/admin/carousels/products/carousel/id/~id~"
+           class="btn-white" title="*Carousel slides*"><i class="fa fa-list-alt"></i></a>
+    </td>
+    <td width="25%" class="text-left">~page_name~</td>
+    <td width="30%" class="text-left"><span data-edit="title">~title~</span></td>
+    <td width="20%" class="text-left"><span data-edit="view_code">~view_code~</span></td>
+    <td width="10%" class="text-left"><input
+            type="checkbox"
+            value="1"
+            id="checkbox_~id~"
+            data-edit="active"
+            data-m-action="onchange_update"
+            data-m-model="modules\carousels\models\carousels_products"
+            checked
+    ><label class="checkbox small" for="checkbox_~id~">*Active*</label></td>
+</tr>

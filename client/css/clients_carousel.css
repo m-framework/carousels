@@ -1,0 +1,63 @@
+#clients_carousel.carousel-container ul.carousel {
+    height: auto;
+}
+#clients_carousel ul li {
+    height: auto !important;
+}
+#clients_carousel h3 {
+    border-bottom: solid 1px #ededed;
+    padding: 0 60px 10px 0;
+    margin: 0 10px;
+}
+#clients_carousel ul li .title {
+    font-size: 14px;
+    background-color: rgba(2, 137, 200, 0.87);
+    color: #fff;
+    padding: 5px 0;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    top: auto;
+}
+#clients_carousel ul li .block {
+    background-size: cover;
+    background-position: center center;
+    padding: 0;
+}
+#clients_carousel ul li .block:before {
+    content: "";
+    display: block;
+    background-color: #000;
+    opacity: 0.25;
+    padding-top: 100%;
+}
+#clients_carousel ul li .title:hover {
+    background-color: #0289c8;
+    color: #fff;
+}
+#clients_carousel.carousel-container .arrow {
+    text-shadow: none;
+    color: #fff;
+    height: 22px;
+    width: 22px;
+    font-size: 16px;
+    line-height: 22px;
+    top: 0;
+    margin: 0;
+    opacity: 1;
+    background-color: #ddd;
+    vertical-align: middle;
+    text-align: center;
+}
+#clients_carousel.carousel-container .arrow:hover {
+    background-color: #0289C8;
+}
+#clients_carousel.carousel-container .arrow.right {
+    right: 10px;
+}
+#clients_carousel.carousel-container .arrow.left {
+    right: 40px;
+    left: auto;
+}

@@ -1,0 +1,48 @@
+<div class="additional-links">
+
+</div>
+<table cellpadding="0" cellspacing="0" class="admin-overview">
+    <thead>
+    <tr>
+        <th width="10%"></th>
+        <th width="60%" class="text-left">*Product name*</th>
+        <th width="20%" class="text-left">*Product photo*</th>
+        <th width="10%" class="text-left"></th>
+    </tr>
+    </thead>
+    <tbody data-m-action="drag_sort" data-m-model="modules\carousels\models\carousels_products_items">
+    ~items~
+    </tbody>
+    <tfoot>
+    <tr class="editable" data-id="null">
+        <td width="10%">
+            <a href="#"
+               data-model="\modules\carousels\models\carousels_products_items"
+               data-m-action="dynamic_edit"
+               data-m-context="tr[data-id='null']"
+               class="edit save plus"><i class="fa fa-edit"></i></a>
+            <a href="#"
+               data-model="\modules\carousels\models\carousels_products_items"
+               data-m-action="dynamic_edit"
+               data-m-context="tr[data-id='null']"
+               class="delete"
+               title="*Delete*"><i class="fa fa-trash"></i></a>
+        </td>
+        <td class="text-left" width="60%">
+            <input type="hidden" value="~carousel_id~" data-edit="carousel">
+            <div class="relative">
+            <input type="hidden"
+                   data-edit="product"
+                   data-m-action="ajax_suggestions"
+                   data-m-fields="code,name,id"
+                   data-m-model="products"
+                   placeholder="*Type code, name or id of product*"
+                   value=""
+            ></div>
+        </td>
+        <td class="text-left" width="20%"></td>
+        <td class="text-left" width="10%"><input type="checkbox" value="1" id="id" data-edit="active" checked>
+            <label class="checkbox small" for="id">*Active*</label></td>
+    </tr>
+    </tfoot>
+</table>
